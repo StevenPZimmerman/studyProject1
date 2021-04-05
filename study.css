@@ -1,8 +1,16 @@
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
+
+#bigBanner {
+
+width: 100vw;
+
+}
+
 
 
 .grid-item {
@@ -55,7 +63,7 @@ justify-content: space-around;
 .home {
 width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 10fr;
     
 
 }
@@ -81,5 +89,12 @@ h3 {
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     color: #b3b3b3;
+
+}
+.homeImage {
+
+ 
+
+
 
 }
